@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Google-Font Source Sans Pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+        
+    <!-- GOOGLE-FONTS GEMENU LIBRE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />    
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <main class="main-grid">
+        <!--Grid-1-->
+        <div class="secondary-grid-1">
+            <!--Sidebar-->
+            <div class="side-bar-container">
+                <div class="left-logo-container">
+                    <a href=""><img src="./icons/sideLogo.svg"></a>
+                </div>
+
+                <div class="left-socials-container">
+                    <a href=""><img src="./socials/instagram.svg"></a>
+                    <a href=""><img src="./socials/twitter.svg"></a>
+                    <a href=""><img src="./socials/facebook.svg"></a>
+                </div>
+            </div>
+
+            <!--Navbar-->
+            <nav>
+                <ul>
+                    <li><a href="">Plants</a></li>
+                    <li><a href="">Containers</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!--SLOGAN-->
+            <div class="slogan-container">
+                <h1>
+                    <span>Bring</span>
+                    <span class="bold">nature</span>
+                    <span>into</span>
+                </h1>
+                <h1>
+                    <span>your home</span>
+                </h1>
+            </div>
+
+            <!--Action Button-->
+            <div class="action-button-container">
+                <button><a href="">Create arrangement</a></button>
+            </div>
+
+            <!--Main P-->
+            <div class="slogan-p-container">
+                <img src="./icons/circles.svg">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, praesentium nobis eaque explicabo 
+                    ratione totam, voluptatum consequatur, ea qui vero cumque possimus iusto repudiandae quod similique laboriosam itaque beatae minima.
+                </p>
+            </div>
+
+            <!--Carousel-->
+            <div class="carousel-container">
+                <div class="left-arrow-container" onclick="change_pic_bk()">
+                    <img src="./icons/leftArrow.svg">
+                </div>
+                <div class="current-img-container">
+                    <img src="./carousel/flowers1.jpg">
+                    <div class="current-num">01</div>
+                </div>
+                <div class="right-arrow-container" onclick="change_pic_fw()">
+                    <img src="./icons/rightArrow.svg">
+                </div>
+            </div>
+            
+            <div class="background-img">
+                <img src="./pics/leavesPNG.png">
+            </div>
+        </div>
+
+        <!--Grid2-->
+        <div class="secondary-grid-2">
+            <!--Main Product Cart-->
+            <div class="main-product-cart">
+                <h2>Eucalyptus Branch</h2>
+                <div class="cart-single">
+                    <h3>Single Branches</h3>
+                    <h3>9.99$</h3>
+                </div>
+                <div class="cart-mult">
+                    <h3>5x Branches</h3>
+                    <h3>45,99$</h3>
+                </div>
+
+                <div class="inputs">
+                    <div class="input">
+                        <input type="radio">
+                        <span>Leaflet</span>
+                    </div>
+                    <div class="input">
+                        <input type="radio">
+                        <span>Care Tips</span>
+                    </div>
+                    <div class="input">
+                        <input type="radio">
+                        <span>SMS Reminder</span>
+                    </div>
+                    <div class="input">
+                        <input type="radio">
+                        <span>None</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Main Product Display-->
+            <div class="main-product">
+                <div class="img-product-container">
+                    <img src="./pics/pot.png">
+                    <div class="bg1">
+                        <img src="./icons/leaves-branch.svg">
+                    </div>
+                </div>
+                <div class="points-container">
+                    <div class="points-img-container">
+                        <div class="point-img">
+                            <img src="./icons/leaves-branch.svg">
+                        </div>
+                        <div class="point-img">
+                            <img src="./icons/plant.svg">
+                        </div>
+                        <div class="point-img">
+                            <img src="./icons/thermometer.svg">
+                        </div>
+                    </div>
+
+                    <div class="product-details-container">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, similique voluptatum? Harum, quae facere. Accusantium pariatur sint quasi assumenda libero ducimus ipsam suscipit ad, mollitia aliquam adipisci laborum cupiditate quo?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Bars Mobile-->
+            <div class="mobile-bars-container" style="align-self: flex-start;">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </main>
+
+    <div class="bg">
+        <img src="./background/Asset1.png" alt=""/>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
